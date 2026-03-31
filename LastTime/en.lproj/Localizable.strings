@@ -1,0 +1,222 @@
+/* MainTabView */
+"tab.main" = "Main";
+"tab.templates" = "Templates";
+"tab.progress" = "Progress";
+"tab.settings" = "Settings";
+
+/* MainListView */
+"main.navigation_title" = "Last Time";
+"main.empty_title" = "Add your first action";
+"main.empty_subtitle" = "or choose templates on the Templates tab";
+
+/* SearchBarView */
+"search.placeholder" = "Search...";
+
+/* FilterBarView / MainListViewModel */
+"filter.all" = "All";
+"filter.with_reminder" = "With reminder";
+"filter.recent" = "Recent";
+"filter.overdue" = "Overdue";
+
+/* DashboardSummaryView */
+"dashboard.overdue" = "overdue";
+"dashboard.due_this_week" = "due this week";
+"dashboard.done_today" = "done today";
+
+/* SortOrder */
+"sort.by_last_done" = "By last done";
+"sort.by_title" = "By name";
+"sort.by_next_reminder" = "By next reminder";
+
+/* AddEditActivityView */
+"addedit.title_label" = "Name";
+"addedit.name_placeholder" = "Enter action name";
+"addedit.reminder_placeholder" = "Remind in…";
+"addedit.reminder_at_label" = "Remind at";
+"addedit.photo_label" = "Photo";
+"addedit.add_photo" = "Add photo";
+"addedit.navigation_edit" = "Edit";
+"addedit.navigation_new" = "New action";
+"addedit.cancel" = "Cancel";
+"addedit.save" = "Save";
+
+/* ActivityDetailView */
+"detail.title_label" = "Name";
+"detail.name_placeholder" = "Action name";
+"detail.last_done" = "Last time";
+"detail.mark_done" = "Mark as done";
+"detail.history" = "History";
+"detail.delete_action" = "Delete action";
+"detail.navigation_title" = "Details";
+"detail.close" = "Close";
+"detail.delete_confirmation_title" = "Delete action?";
+"detail.delete_confirmation_message" = "This action will be permanently deleted.";
+"detail.delete_button" = "Delete";
+"detail.stats_title" = "Statistics";
+"detail.stats_avg_interval" = "Avg. interval (days)";
+"detail.stats_streak" = "Streak";
+"detail.stats_this_month" = "This month";
+
+/* ActivityCardView */
+"activity.never_marked" = "Not marked yet";
+"activity.edit" = "Edit";
+"activity.delete" = "Delete";
+
+/* ReminderPickerView */
+"reminder.none" = "No reminders";
+"reminder.navigation_title" = "Reminders";
+"reminder.done" = "Done";
+
+/* ReminderType */
+"reminder.1day" = "1 day";
+"reminder.3days" = "3 days";
+"reminder.1week" = "1 week";
+"reminder.2weeks" = "2 weeks";
+"reminder.1month" = "1 month";
+"reminder.3months" = "3 months";
+"reminder.6months" = "6 months";
+"reminder.custom" = "Custom interval";
+"reminder.custom_days" = "%d days";
+"reminder.custom_hint" = "Set how often you want to be reminded.";
+"reminder.days_label" = "Days";
+
+/* Category */
+"category.none" = "None";
+"category.all" = "All";
+"category.picker_title" = "Category";
+"category.add_new" = "New category";
+"category.name_label" = "Name";
+"category.name_placeholder" = "Category name";
+"category.color_label" = "Color";
+"category.add_title" = "New category";
+"category.edit_title" = "Edit category";
+"category.empty" = "No categories";
+"category.empty_hint" = "Add categories to group your activities";
+
+/* SettingsView */
+"settings.language" = "Language";
+"settings.categories" = "Categories";
+"settings.navigation_title" = "Settings";
+"settings.notifications" = "Notifications";
+"settings.premium" = "Premium";
+"settings.premium_banner_upgrade" = "Upgrade to Premium";
+"settings.premium_banner_active" = "You have Premium";
+"settings.restore_purchases" = "Restore purchases";
+"settings.privacy_policy" = "Privacy Policy";
+"settings.terms_of_use" = "Terms of Use";
+"settings.support" = "Support";
+"settings.rate_us" = "Rate Us";
+"settings.share_app" = "Share App";
+
+/* TemplatesView */
+"templates.navigation_title" = "Templates";
+
+/* OnboardingView */
+"onboarding.skip" = "Skip";
+"onboarding.next" = "Next";
+"onboarding.getStarted" = "Get started";
+"onboarding.screen1.title" = "Track your habits";
+"onboarding.screen1.description" = "Record when you last did something and see your progress over time.";
+"onboarding.screen2.title" = "Smart reminders";
+"onboarding.screen2.description" = "Set reminders so you never forget to do what matters.";
+"onboarding.screen3.title" = "History & stats";
+"onboarding.screen3.description" = "View your history and track streaks and statistics.";
+
+/* LoadingView */
+"loading.subtitle" = "Preparing your experience…";
+
+/* ProgressView */
+"progress.navigation_title" = "Progress";
+"progress.stat_activities" = "Actions";
+"progress.stat_this_week" = "This week";
+"progress.stat_this_month" = "This month";
+"progress.achievements" = "Achievements";
+"progress.unlock_for_chart" = "Unlock Premium to see your chart and achievements.";
+
+/* ProgressChartView */
+"progress.chart_title" = "Records this week";
+"progress.no_data" = "No data";
+
+/* ProgressViewModel achievements */
+"achievement.first_action" = "First action";
+"achievement.10_records" = "10 records";
+"achievement.7_day_streak" = "7 days in a row";
+
+/* HistoryView */
+"history.empty" = "No history";
+"history.done" = "Done";
+
+/* NotificationService */
+"notification.title" = "Last Time";
+"notification.body_prefix" = "Reminder:";
+
+/* Date+Extensions */
+"date.just_now" = "just now";
+"date.minute_ago" = "1 minute ago";
+"date.minutes_ago" = "%d minutes ago";
+"date.hour" = "hour";
+"date.hours_few" = "hours";
+"date.hours_many" = "hours";
+"date.day" = "day";
+"date.days_few" = "days";
+"date.days_many" = "days";
+"date.week" = "week";
+"date.weeks_few" = "weeks";
+"date.weeks_many" = "weeks";
+"date.month" = "month";
+"date.months_few" = "months";
+"date.months_many" = "months";
+"date.year" = "year";
+"date.years_few" = "years";
+"date.years_many" = "years";
+"date.ago" = "%d %@ ago";
+
+/* Templates (template names) */
+"template.call_parents" = "Call parents";
+"template.change_toothbrush" = "Change toothbrush";
+"template.wash_bedding" = "Wash bedding";
+"template.water_plants" = "Water plants";
+"template.dentist" = "Visit dentist";
+"template.backup_photos" = "Back up photos";
+"template.check_fire_extinguisher" = "Check fire extinguisher";
+"template.replace_water_filter" = "Replace water filter";
+"template.clean_ac" = "Clean air conditioner";
+"template.update_passwords" = "Update passwords";
+"template.check_first_aid" = "Check first aid kit";
+"template.get_tests" = "Get tests done";
+"template.check_tire_pressure" = "Check tire pressure";
+"template.clean_vacuum" = "Clean vacuum";
+"template.call_friend" = "Call a friend";
+"template.gym" = "Go to gym";
+"template.read_book" = "Read a book";
+"template.check_expiry" = "Check product expiry dates";
+"template.replace_batteries" = "Replace sensor batteries";
+"template.clean_house" = "Clean the house";
+
+/* PaywallView */
+"paywall.title" = "Unlock Premium";
+"paywall.subtitle" = "Get unlimited access to all features and track your habits without limits.";
+"paywall.option.month" = "1 month";
+"paywall.option.year" = "1 year";
+"paywall.per_month" = "per month";
+"paywall.per_week" = "per week";
+"paywall.per_year" = "per year";
+"paywall.best_value" = "Best value";
+"paywall.benefit.unlimited_activities" = "Unlimited activities";
+"paywall.benefit.reminders" = "Reminders for every activity";
+"paywall.benefit.categories" = "Categories to stay organized";
+"paywall.benefit.stats_achievements" = "Full statistics and achievements";
+"paywall.continue" = "Continue";
+"paywall.restore" = "Restore purchases";
+"paywall.privacy_policy" = "Privacy Policy";
+"paywall.terms" = "Terms";
+"paywall.support" = "Support";
+"paywall.error.not_available" = "Product not available";
+"paywall.error.cancelled" = "Purchase was cancelled or failed";
+"paywall.error.no_purchases" = "No previous purchases found";
+"alert.ok" = "OK";
+"alert.cancel" = "Cancel";
+
+/* Language picker */
+"language.english" = "English";
+"language.german" = "German";

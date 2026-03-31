@@ -1,0 +1,222 @@
+/* MainTabView */
+"tab.main" = "Haupt";
+"tab.templates" = "Vorlagen";
+"tab.progress" = "Fortschritt";
+"tab.settings" = "Einstellungen";
+
+/* MainListView */
+"main.navigation_title" = "Last Time";
+"main.empty_title" = "Füge deine erste Aktion hinzu";
+"main.empty_subtitle" = "oder wähle Vorlagen im Tab Vorlagen";
+
+/* SearchBarView */
+"search.placeholder" = "Suchen...";
+
+/* FilterBarView / MainListViewModel */
+"filter.all" = "Alle";
+"filter.with_reminder" = "Mit Erinnerung";
+"filter.recent" = "Kürzlich";
+"filter.overdue" = "Überfällig";
+
+/* DashboardSummaryView */
+"dashboard.overdue" = "überfällig";
+"dashboard.due_this_week" = "diese Woche";
+"dashboard.done_today" = "heute erledigt";
+
+/* SortOrder */
+"sort.by_last_done" = "Nach letzter Erledigung";
+"sort.by_title" = "Nach Name";
+"sort.by_next_reminder" = "Nach nächster Erinnerung";
+
+/* AddEditActivityView */
+"addedit.title_label" = "Name";
+"addedit.name_placeholder" = "Aktionsname eingeben";
+"addedit.reminder_placeholder" = "Erinnern in…";
+"addedit.reminder_at_label" = "Erinnern am";
+"addedit.photo_label" = "Foto";
+"addedit.add_photo" = "Foto hinzufügen";
+"addedit.navigation_edit" = "Bearbeiten";
+"addedit.navigation_new" = "Neue Aktion";
+"addedit.cancel" = "Abbrechen";
+"addedit.save" = "Speichern";
+
+/* ActivityDetailView */
+"detail.title_label" = "Name";
+"detail.name_placeholder" = "Aktionsname";
+"detail.last_done" = "Zuletzt erledigt";
+"detail.mark_done" = "Als erledigt markieren";
+"detail.history" = "Verlauf";
+"detail.delete_action" = "Aktion löschen";
+"detail.navigation_title" = "Details";
+"detail.close" = "Schließen";
+"detail.delete_confirmation_title" = "Aktion löschen?";
+"detail.delete_confirmation_message" = "Diese Aktion wird endgültig gelöscht.";
+"detail.delete_button" = "Löschen";
+"detail.stats_title" = "Statistik";
+"detail.stats_avg_interval" = "Ø Abstand (Tage)";
+"detail.stats_streak" = "Serie";
+"detail.stats_this_month" = "Dieser Monat";
+
+/* ActivityCardView */
+"activity.never_marked" = "Noch nicht erledigt";
+"activity.edit" = "Bearbeiten";
+"activity.delete" = "Löschen";
+
+/* ReminderPickerView */
+"reminder.none" = "Keine Erinnerungen";
+"reminder.navigation_title" = "Erinnerungen";
+"reminder.done" = "Fertig";
+
+/* ReminderType */
+"reminder.1day" = "1 Tag";
+"reminder.3days" = "3 Tage";
+"reminder.1week" = "1 Woche";
+"reminder.2weeks" = "2 Wochen";
+"reminder.1month" = "1 Monat";
+"reminder.3months" = "3 Monate";
+"reminder.6months" = "6 Monate";
+"reminder.custom" = "Eigener Abstand";
+"reminder.custom_days" = "%d Tage";
+"reminder.custom_hint" = "Lege fest, wie oft du erinnert werden möchtest.";
+"reminder.days_label" = "Tage";
+
+/* Category */
+"category.none" = "Keine";
+"category.all" = "Alle";
+"category.picker_title" = "Kategorie";
+"category.add_new" = "Neue Kategorie";
+"category.name_label" = "Name";
+"category.name_placeholder" = "Kategoriename";
+"category.color_label" = "Farbe";
+"category.add_title" = "Neue Kategorie";
+"category.edit_title" = "Kategorie bearbeiten";
+"category.empty" = "Keine Kategorien";
+"category.empty_hint" = "Füge Kategorien hinzu, um Aktionen zu gruppieren";
+
+/* SettingsView */
+"settings.language" = "Sprache";
+"settings.categories" = "Kategorien";
+"settings.navigation_title" = "Einstellungen";
+"settings.notifications" = "Benachrichtigungen";
+"settings.premium" = "Premium";
+"settings.premium_banner_upgrade" = "Auf Premium upgraden";
+"settings.premium_banner_active" = "Du hast Premium";
+"settings.restore_purchases" = "Käufe wiederherstellen";
+"settings.privacy_policy" = "Datenschutz";
+"settings.terms_of_use" = "Nutzungsbedingungen";
+"settings.support" = "Support";
+"settings.rate_us" = "Bewerte uns";
+"settings.share_app" = "App teilen";
+
+/* TemplatesView */
+"templates.navigation_title" = "Vorlagen";
+
+/* OnboardingView */
+"onboarding.skip" = "Überspringen";
+"onboarding.next" = "Weiter";
+"onboarding.getStarted" = "Loslegen";
+"onboarding.screen1.title" = "Gewohnheiten tracken";
+"onboarding.screen1.description" = "Erfasse, wann du etwas zuletzt gemacht hast, und verfolge deinen Fortschritt.";
+"onboarding.screen2.title" = "Erinnerungen";
+"onboarding.screen2.description" = "Setze Erinnerungen, damit du Wichtiges nicht vergisst.";
+"onboarding.screen3.title" = "Verlauf & Statistik";
+"onboarding.screen3.description" = "Sieh deinen Verlauf, Streaks und Statistiken ein.";
+
+/* LoadingView */
+"loading.subtitle" = "Bereite deine Erfahrung vor…";
+
+/* ProgressView */
+"progress.navigation_title" = "Fortschritt";
+"progress.stat_activities" = "Aktionen";
+"progress.stat_this_week" = "Diese Woche";
+"progress.stat_this_month" = "Diesen Monat";
+"progress.achievements" = "Erfolge";
+"progress.unlock_for_chart" = "Schalte Premium frei für Grafik und Erfolge.";
+
+/* ProgressChartView */
+"progress.chart_title" = "Einträge diese Woche";
+"progress.no_data" = "Keine Daten";
+
+/* ProgressViewModel achievements */
+"achievement.first_action" = "Erste Aktion";
+"achievement.10_records" = "10 Einträge";
+"achievement.7_day_streak" = "7 Tage hintereinander";
+
+/* HistoryView */
+"history.empty" = "Kein Verlauf";
+"history.done" = "Fertig";
+
+/* NotificationService */
+"notification.title" = "Last Time";
+"notification.body_prefix" = "Erinnerung:";
+
+/* Date+Extensions */
+"date.just_now" = "gerade eben";
+"date.minute_ago" = "vor 1 Minute";
+"date.minutes_ago" = "vor %d Minuten";
+"date.hour" = "Stunde";
+"date.hours_few" = "Stunden";
+"date.hours_many" = "Stunden";
+"date.day" = "Tag";
+"date.days_few" = "Tage";
+"date.days_many" = "Tage";
+"date.week" = "Woche";
+"date.weeks_few" = "Wochen";
+"date.weeks_many" = "Wochen";
+"date.month" = "Monat";
+"date.months_few" = "Monate";
+"date.months_many" = "Monate";
+"date.year" = "Jahr";
+"date.years_few" = "Jahre";
+"date.years_many" = "Jahre";
+"date.ago" = "vor %d %@";
+
+/* Templates (template names) */
+"template.call_parents" = "Eltern anrufen";
+"template.change_toothbrush" = "Zahnbürste wechseln";
+"template.wash_bedding" = "Bettwäsche waschen";
+"template.water_plants" = "Pflanzen gießen";
+"template.dentist" = "Zahnarzt besuchen";
+"template.backup_photos" = "Fotos sichern";
+"template.check_fire_extinguisher" = "Feuerlöscher prüfen";
+"template.replace_water_filter" = "Wasserfilter ersetzen";
+"template.clean_ac" = "Klimaanlage reinigen";
+"template.update_passwords" = "Passwörter aktualisieren";
+"template.check_first_aid" = "Erste-Hilfe-Set prüfen";
+"template.get_tests" = "Blutwerte checken";
+"template.check_tire_pressure" = "Reifendruck prüfen";
+"template.clean_vacuum" = "Staubsauger reinigen";
+"template.call_friend" = "Freund anrufen";
+"template.gym" = "Ins Fitnessstudio";
+"template.read_book" = "Buch lesen";
+"template.check_expiry" = "Haltbarkeit prüfen";
+"template.replace_batteries" = "Batterien in Sensoren ersetzen";
+"template.clean_house" = "Haus putzen";
+
+/* PaywallView */
+"paywall.title" = "Premium freischalten";
+"paywall.subtitle" = "Unbegrenzter Zugang zu allen Funktionen und Gewohnheiten ohne Limit.";
+"paywall.option.month" = "1 Month";
+"paywall.option.year" = "1 Jahr";
+"paywall.per_month" = "pro Monat";
+"paywall.per_week" = "pro Woche";
+"paywall.per_year" = "pro Jahr";
+"paywall.best_value" = "Bester Preis";
+"paywall.benefit.unlimited_activities" = "Unbegrenzt viele Aktionen";
+"paywall.benefit.reminders" = "Erinnerungen für jede Aktion";
+"paywall.benefit.categories" = "Kategorien zur Übersicht";
+"paywall.benefit.stats_achievements" = "Statistik und Erfolge";
+"paywall.continue" = "Weiter";
+"paywall.restore" = "Käufe wiederherstellen";
+"paywall.privacy_policy" = "Datenschutz";
+"paywall.terms" = "Nutzungsbedingungen";
+"paywall.support" = "Support";
+"paywall.error.not_available" = "Produkt nicht verfügbar";
+"paywall.error.cancelled" = "Kauf wurde abgebrochen oder ist fehlgeschlagen";
+"paywall.error.no_purchases" = "Keine vorherigen Käufe gefunden";
+"alert.ok" = "OK";
+"alert.cancel" = "Abbrechen";
+
+/* Language picker */
+"language.english" = "English";
+"language.german" = "Deutsch";
