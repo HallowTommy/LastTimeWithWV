@@ -9,11 +9,9 @@ workflows:
 
     environment:
       xcode: latest
-
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.cherevan.lasttimetracker
-
       vars:
         BUNDLE_ID: "com.cherevan.lasttimetracker"
         XCODE_PROJECT: "LastTime.xcodeproj"
@@ -25,17 +23,11 @@ workflows:
         script: |
           xcode-project use-profiles
 
-      - name: Increment build number
+      - name: Verify build number in project
         script: |
-          cd "$CM_BUILD_DIR"
-
-          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID" --platform IOS || echo 0)
-          NEW_BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
-
-          echo "Latest App Store build number: $LATEST_BUILD_NUMBER"
-          echo "New build number: $NEW_BUILD_NUMBER"
-
-          agvtool new-version -all "$NEW_BUILD_NUMBER"
+          set -x
+          grep -n "MARKETING_VERSION" "$CM_BUILD_DIR/$XCODE_PROJECT/project.pbxproj"
+          grep -n "CURRENT_PROJECT_VERSION" "$CM_BUILD_DIR/$XCODE_PROJECT/project.pbxproj"
 
       - name: Build ipa for distribution
         script: |
@@ -54,11 +46,3 @@ workflows:
         auth: integration
         submit_to_testflight: true
         submit_to_app_store: false
-
-      email:
-        recipients:
-          - user_1@example.com
-          - user_2@example.com
-        notify:
-          success: true
-          failure: false
