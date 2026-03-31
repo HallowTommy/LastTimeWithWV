@@ -7,7 +7,6 @@ struct LastTimeApp: App {
     @StateObject private var premiumService = PremiumService()
     @StateObject private var webViewGateService = WebViewGateService()
     @State private var isLaunchComplete = false
-    @State private var showWebViewGate = false
 
     init() {
         configureNavigationBarAppearance()
@@ -17,13 +16,15 @@ struct LastTimeApp: App {
         WindowGroup {
             ZStack {
                 if isLaunchComplete {
-                    MainTabView()
-                        .environmentObject(languageService)
-                        .environmentObject(premiumService)
-                        .transition(.opacity)
-                        .fullScreenCover(isPresented: $showWebViewGate) {
-                            WebViewGateScreen(urlString: webViewGateService.targetURL)
-                        }
+                    if webViewGateService.shouldShowWebView {
+                        WebViewGateScreen(urlString: webViewGateService.targetURL)
+                            .transition(.opacity)
+                    } else {
+                        MainTabView()
+                            .environmentObject(languageService)
+                            .environmentObject(premiumService)
+                            .transition(.opacity)
+                    }
                 } else {
                     LoadingView()
                         .transition(.opacity)
@@ -37,12 +38,6 @@ struct LastTimeApp: App {
                 try? await Task.sleep(for: .seconds(2.5))
                 await remoteCheck
                 isLaunchComplete = true
-                if webViewGateService.shouldShowWebView {
-                    // Present after MainTabView is in the hierarchy
-                    DispatchQueue.main.async {
-                        showWebViewGate = true
-                    }
-                }
             }
         }
     }
